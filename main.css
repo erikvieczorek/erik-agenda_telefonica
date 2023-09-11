@@ -1,0 +1,99 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #cbcbf0;
+    padding-top: 100px;
+}
+
+header {
+    display: flex;
+    margin-bottom: 40px;
+    background-color: rgb(155, 161, 243);
+    border-style: groove;
+}
+
+header img {
+    height: 100px;
+}
+
+header h1 {
+    font-size: 40px;
+    font-weight: bold;
+    width: 400px;
+    text-align: center;
+
+}
+
+.container {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+form {
+    display: flex;
+    max-width: 640px;
+    width: 100%;
+    justify-content: space-between;    
+    margin-bottom: 26px;
+    margin-left: 56px;
+}
+
+form input {
+    font-size: 18px;
+    background-color: #fff;
+    border: 1px solid black;
+}
+
+form button {
+    background-color: #009432;
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    padding: 8px;
+}
+
+form button:hover{
+    background-color: #076e28;
+}
+
+table {
+    width: 80%;
+}
+
+#botao-reset
+{
+    margin-top: 20px;
+    font-weight: bold;
+    padding: 4px;
+    background-color: rgb(236, 89, 89);
+    font-size: 14px;
+    color: white;
+    height: 30px;
+    width: 80px;
+    cursor: pointer;
+    border: none
+}
+
+#botao-reset:hover {
+    background-color: #c52c21;
+}
+
+table th {
+    border: 2px solid black;
+    padding: 8px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+table td {
+    padding: 8px 0;
+    text-align: center;
+    font-size: 18px;
+    border: 1px solid rgba(0,0,0,0.1);
+}
+
