@@ -12,6 +12,7 @@ header {
     margin-bottom: 40px;
     background-color: rgb(155, 161, 243);
     border-style: groove;
+    border-radius: 12px;
 }
 
 header img {
@@ -30,31 +31,37 @@ header h1 {
     max-width: 960px;
     width: 100%;
     margin: 0 auto;
+    border: 3px solid black;
+    border-radius: 12px;
+
 }
 
 form {
     display: flex;
     max-width: 640px;
-    width: 100%;
+    width: 60%;
     justify-content: space-between;    
-    margin-bottom: 26px;
-    margin-left: 56px;
+    margin: 26px auto;
+
 }
 
 form input {
     font-size: 18px;
     background-color: #fff;
     border: 1px solid black;
+    text-align: center;
+    border-radius: 8px;
 }
 
 form button {
     background-color: #009432;
     color: #fff;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: bold;
     border: none;
     cursor: pointer;
     padding: 8px;
+    border-radius: 8px;
 }
 
 form button:hover{
@@ -63,11 +70,15 @@ form button:hover{
 
 table {
     width: 80%;
+    margin: 0 auto;
+    border: 1px solid black;
+    border-radius: 6px;
 }
 
 #botao-reset
 {
-    margin-top: 20px;
+    display: block;
+    margin: 23px auto;
     font-weight: bold;
     padding: 4px;
     background-color: rgb(236, 89, 89);
@@ -76,7 +87,8 @@ table {
     height: 30px;
     width: 80px;
     cursor: pointer;
-    border: none
+    border: none;
+    border-radius: 8px;
 }
 
 #botao-reset:hover {
