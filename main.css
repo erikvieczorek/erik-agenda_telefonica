@@ -9,6 +9,8 @@ body {
 
 header {
     display: flex;
+    align-items: center;
+    justify-content: center;
     margin-bottom: 40px;
     background-color: rgb(155, 161, 243);
     border-style: groove;
@@ -38,11 +40,19 @@ header h1 {
 
 form {
     display: flex;
-    max-width: 640px;
-    width: 60%;
-    justify-content: space-between;    
+    max-width: 100%;
+    width: 80%;
+    gap: 10px;
     margin: 26px auto;
+}
 
+@media (max-width: 641px) {
+    form {
+        display: block;
+    }
+    form input {
+        margin-bottom: 4px;
+    }
 }
 
 form input {
@@ -51,6 +61,7 @@ form input {
     border: 1px solid black;
     text-align: center;
     border-radius: 8px;
+    width: 100%;
 }
 
 form button {
@@ -60,7 +71,7 @@ form button {
     font-weight: bold;
     border: none;
     cursor: pointer;
-    padding: 8px;
+    padding: 4px;
     border-radius: 8px;
 }
 
